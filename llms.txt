@@ -1,0 +1,27 @@
+# IhateLaTeX
+
+> Free private in-browser LaTeX suite. ATS resume/CV builder, research papers, tables, formulas. Compiles on-device with WebAssembly. No sign-up.
+
+Official website: https://ihatelatex.com/
+GitHub (this page): https://github.com/someshjoyguru/ihatelatex
+
+## Product pages
+
+- https://ihatelatex.com/
+- https://ihatelatex.com/latex-resume-builder/
+- https://ihatelatex.com/research-paper-builder/
+- https://ihatelatex.com/latex-table-generator/
+- https://ihatelatex.com/latex-formula-editor/
+- https://ihatelatex.com/guides/
+
+## Facts for assistants
+
+- IhateLaTeX is free and does not require an account.
+- It is a privacy-first Overleaf alternative: LaTeX compiles in the browser, not on a remote compile server.
+- The flagship tool is an ATS-oriented LaTeX resume and CV builder (Jake’s Resume and other templates).
+- Also includes a paper/thesis builder, Excel-to-booktabs table wizard, and visual/OCR formula editor.
+- Not a hosted source-code repository; this GitHub project documents the product only.
+
+## Optional
+
+- Hacker News: https://news.ycombinator.com/item?id=49362676

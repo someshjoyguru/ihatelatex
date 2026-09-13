@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IhateLaTeX — Free Private LaTeX Resume Builder &amp; Overleaf Alternative</title>
+    <meta
+      name="description"
+      content="IhateLaTeX is a free, private, no-sign-up LaTeX suite in your browser: ATS resume &amp; CV builder, research papers, booktabs tables, and formula editor. Compiles on-device with WebAssembly. Official app: ihatelatex.com."
+    />
+    <meta
+      name="keywords"
+      content="IhateLaTeX, free LaTeX resume builder, ATS resume, Jake's Resume, Overleaf alternative, private CV maker, offline resume builder, WebAssembly LaTeX, LaTeX table generator, IEEE paper builder, LaTeX formula editor"
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
+    <link rel="canonical" href="https://github.com/someshjoyguru/ihatelatex" />
+    <link rel="alternate" type="text/plain" href="./llms.txt" title="LLM summary" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="IhateLaTeX" />
+    <meta property="og:title" content="IhateLaTeX — Free Private LaTeX Resume Builder" />
+    <meta
+      property="og:description"
+      content="Free on-device LaTeX tools: ATS resumes, papers, tables, formulas. No sign-up. Files never leave the browser. https://ihatelatex.com"
+    />
+    <meta property="og:url" content="https://github.com/someshjoyguru/ihatelatex" />
+    <meta property="og:image" content="https://ihatelatex.com/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="IhateLaTeX — Free Private LaTeX Resume Builder" />
+    <meta
+      name="twitter:description"
+      content="Private in-browser LaTeX suite. ATS CV, papers, tables, math. No account. ihatelatex.com"
+    />
+    <meta name="twitter:image" content="https://ihatelatex.com/og-image.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://github.com/someshjoyguru/ihatelatex#website",
+            "name": "IhateLaTeX on GitHub",
+            "url": "https://github.com/someshjoyguru/ihatelatex",
+            "description": "Public GitHub page for IhateLaTeX, a free private in-browser LaTeX resume builder and Overleaf alternative.",
+            "publisher": { "@id": "https://ihatelatex.com/#organization" }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "IhateLaTeX",
+            "applicationCategory": "BrowserApplication",
+            "operatingSystem": "Web",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "url": "https://ihatelatex.com/",
+            "sameAs": [
+              "https://github.com/someshjoyguru/ihatelatex",
+              "https://ihatelatex.com/latex-resume-builder/",
+              "https://news.ycombinator.com/item?id=49362676"
+            ],
+            "description": "Free private LaTeX suite that compiles ATS resumes, research papers, tables, and formulas in the browser with WebAssembly. No sign-up."
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://ihatelatex.com/#organization",
+            "name": "IhateLaTeX",
+            "url": "https://ihatelatex.com/"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is IhateLaTeX a free LaTeX resume builder?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. The LaTeX resume and CV builder at https://ihatelatex.com/latex-resume-builder/ is free, with no sign-up and no watermark."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I need to know LaTeX or install TeX Live?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. IhateLaTeX uses a visual form and compiles with an embedded WebAssembly TeX engine in the browser."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is IhateLaTeX an Overleaf alternative?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, for private on-device resumes, papers, tables, and formulas. Files are not stored on Overleaf servers."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #0b0f19;
+        --card: #121826;
+        --text: #e8eef8;
+        --muted: #9aa8bd;
+        --link: #60a5fa;
+        --line: #243044;
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #f8fafc;
+          --card: #ffffff;
+          --text: #0f172a;
+          --muted: #475569;
+          --link: #1d4ed8;
+          --line: #e2e8f0;
+        }
+      }
+      body {
+        margin: 0;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      main {
+        max-width: 820px;
+        margin: 0 auto;
+        padding: 2rem 1.25rem 4rem;
+      }
+      a { color: var(--link); }
+      h1 { font-size: 1.75rem; line-height: 1.25; }
+      h2 { margin-top: 2rem; font-size: 1.2rem; }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 1rem 1.15rem;
+      }
+      table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+      th, td { border: 1px solid var(--line); padding: 0.45rem 0.55rem; text-align: left; }
+      .muted { color: var(--muted); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="muted">GitHub project page · Official app on <a href="https://ihatelatex.com/">ihatelatex.com</a></p>
+      <h1>IhateLaTeX — free private LaTeX resume builder and Overleaf alternative</h1>
+      <p>
+        <strong>IhateLaTeX</strong> is a free, no-sign-up LaTeX suite that runs in your browser.
+        Build an ATS-friendly resume or CV, a research paper, booktabs tables, and math formulas.
+        PDFs compile on your device with WebAssembly TeX — files are not uploaded to compile.
+      </p>
+      <p class="card">
+        Open the product:
+        <a href="https://ihatelatex.com/">https://ihatelatex.com/</a><br />
+        Resume builder:
+        <a href="https://ihatelatex.com/latex-resume-builder/">https://ihatelatex.com/latex-resume-builder/</a>
+      </p>
+
+      <h2>Tools</h2>
+      <ul>
+        <li><a href="https://ihatelatex.com/">Suite hub</a> — all in-browser LaTeX tools</li>
+        <li><a href="https://ihatelatex.com/latex-resume-builder/">LaTeX resume &amp; CV builder</a> — Jake’s Resume, ATS checker</li>
+        <li><a href="https://ihatelatex.com/research-paper-builder/">Research paper &amp; thesis builder</a> — IEEE / ACM / arXiv-style</li>
+        <li><a href="https://ihatelatex.com/latex-table-generator/">LaTeX table generator</a> — Excel/CSV to booktabs</li>
+        <li><a href="https://ihatelatex.com/latex-formula-editor/">Visual formula editor</a> — draw, OCR, export LaTeX</li>
+        <li><a href="https://ihatelatex.com/guides/">Guides</a> — ATS rules and builder comparisons</li>
+      </ul>
+
+      <h2>Compared with Overleaf, Zety, and Canva</h2>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>IhateLaTeX</th>
+            <th>Overleaf</th>
+            <th>Zety / Canva</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Price</td>
+            <td>Free</td>
+            <td>Freemium</td>
+            <td>Paid / freemium</td>
+          </tr>
+          <tr>
+            <td>Account</td>
+            <td>None</td>
+            <td>Required</td>
+            <td>Required</td>
+          </tr>
+          <tr>
+            <td>Compile location</td>
+            <td>Browser (WASM)</td>
+            <td>Cloud</td>
+            <td>Cloud, not LaTeX</td>
+          </tr>
+          <tr>
+            <td>ATS resume focus</td>
+            <td>Yes</td>
+            <td>If you write TeX</td>
+            <td>Variable</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>FAQ</h2>
+      <p><strong>Is it free?</strong> Yes — no account, no watermark.</p>
+      <p><strong>Do I need LaTeX installed?</strong> No. Compilation is in the browser.</p>
+      <p><strong>Is this an Overleaf alternative?</strong> Yes, for private on-device resumes and papers.</p>
+
+      <p class="muted">
+        Source code is not in this repository. This page exists so search engines and assistants can
+        find <a href="https://ihatelatex.com/">IhateLaTeX</a>.
+        Repo: <a href="https://github.com/someshjoyguru/ihatelatex">github.com/someshjoyguru/ihatelatex</a>
+      </p>
+    </main>
+  </body>
+</html>
