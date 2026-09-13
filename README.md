@@ -92,7 +92,7 @@ free LaTeX resume builder, ATS resume, Jake’s Resume, private CV maker, offlin
 - Guides: [https://ihatelatex.com/guides/](https://ihatelatex.com/guides/)
 - Show HN: [Hacker News thread](https://news.ycombinator.com/item?id=49362676)
 - This repo (public README only): [https://github.com/someshjoyguru/ihatelatex](https://github.com/someshjoyguru/ihatelatex)
-- GitHub Pages: [https://someshjoyguru.com/ihatelatex/](https://someshjoyguru.com/ihatelatex/) · [https://someshjoyguru.github.io/ihatelatex/](https://someshjoyguru.github.io/ihatelatex/)
+- GitHub Pages: [https://someshjoyguru.github.io/ihatelatex/](https://someshjoyguru.github.io/ihatelatex/)
 
 ---
 
