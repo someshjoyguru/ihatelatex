@@ -25,5 +25,6 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
+Sitemap: https://someshghosh.me/ihatelatex/sitemap.xml
 Sitemap: https://someshjoyguru.github.io/ihatelatex/sitemap.xml
 Sitemap: https://ihatelatex.com/sitemap.xml
